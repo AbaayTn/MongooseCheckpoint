@@ -6,8 +6,7 @@ const dbConnect =require('./dbConnect')
 dbConnect()
 const run =require('./Persons')
 run()
-const last=require('./Last')
-last()
+
 
 
 app.use(cors())

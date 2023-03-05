@@ -10,6 +10,7 @@ router.post('/update',userController.updatePerson)
 router.post('/updateOne',userController.findAndUpdate)
 router.post('/findAndRemove',userController.findAndRemove)
 router.delete('/deleteMany',userController.deleteMany)
+router.get('/getburritos',userController.getburritos)
 
 
 module.exports=router
